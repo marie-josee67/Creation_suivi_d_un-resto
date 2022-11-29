@@ -4,7 +4,7 @@ Tache restent a accomplir:
 
 2) vidéo à voir sur les images: https://grafikart.fr/tutoriels/images-1026#autoplay  ==> fait
 
-3) video les table : https://grafikart.fr/tutoriels/table-1027#autoplay
+3) video les table : https://grafikart.fr/tutoriels/table-1027#autoplay  ==> fait
 
 4) vidéo les iframe : https://grafikart.fr/tutoriels/iframe-1028#autoplay
 
