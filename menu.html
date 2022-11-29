@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Menu du restaurant l'Astro de Strasbourg</title>
+
+<!-- *************************************** Bordure du tableau pour plus de confort ***********************************************-->
+    
+     <!-- Permet de mettre du Css dans un fichier HTML avec une balise style -->
+    <style>
+
+        table,td {
+            border: 1px solid #333;
+        }
+
+        thead,tfoot {
+            background-color: #333;
+            color: #fff;
+        }
+
+    </style>
 </head>
 <body>
+
     <p>
         <a href="index.html">Revenir à l'accueil</a>
     </p>
+
     <h1>Le menu</h1>
 
     <h2>Entrée</h2>
@@ -19,6 +38,27 @@
         <li> entrée 2 </li>
         <li> entrée 3 </li>
     </ul>
+
+<!-- ****************************************************** Tableau des plat et prix ***************************************************************** -->
+    <table>
+        <tr><!-- Permet de créer une nouvelle ligne du tableau -->
+            <td>Plat</td> <!-- Titres de colonnes du tableau -->
+            <td>Prix</td>
+        </tr> 
+        <tr>
+            <td>Steak Frite</td>
+            <td>5.99€</td>
+        </tr>
+        <tr>
+            <td>Steak </td>
+            <td>3.99€</td>
+        </tr>
+        <tr>
+            <td>Frite</td>
+            <td>2€</td>
+        </tr>
+    </table>
+
 
     <h2 id="plats-chauds">Plats chauds</h2> <!-- Lien d'un mot entre le fichier index.html et menu.html se qui permet de renvoyer vers une partie spécifique d'une page web.-->
 
@@ -112,5 +152,7 @@
         <li>absinte</li>
         <li>smirnoffe</li>
     </ul>
+
+
 </body>
 </html>
