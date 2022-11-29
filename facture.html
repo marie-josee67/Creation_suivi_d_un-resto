@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exemple d'une facture </title>
+
+         <!-- Permet de mettre du Css dans un fichier HTML avec une balise style -->
+         <style>
+
+            table,th {
+                font-size: 30px;
+                border: 2px solid rgb(21, 172, 67);
+                padding:5px;
+            }
+    
+            table,td {
+                font-size: 25px;
+                text-align: center;
+                border: 2px solid rgb(136, 16, 16);
+                padding:5px;
+            }
+    
+            thead,tfoot {
+                font-size: 15px;
+                background-color: rgb(9, 17, 137);
+                color: #fff;
+                padding:5px;
+            }
+    
+        </style>
+
+</head>
+
+<body>
+
+    <a href="index.html">retour à la page d'accueil</a><br>
+    <br>
+    
+    <table>
+
+        <thead>
+            <th>Nom du produit</th>
+            <th>Prix HT</th>
+            <th>Quantité</th>
+            <th>Prix TTC</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Souris</td>
+                <td>30€</td>
+                <td>2</td>
+                <td>72€</td>
+            </tr>
+            <tr>
+                <td>Clavier</td>
+                <td>10€</td>
+                <td>5</td>
+                <td>60€</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2" rowspan="2"></td>
+                <td>Total</td>
+                <td>110€</td>
+            </tr><tr>
+                <td>Total TTC</td>
+                <td>132€</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+</body>
+</html>
