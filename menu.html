@@ -46,45 +46,56 @@
 
 <!-- ****************************************************** Tableau des plat et prix ***************************************************************** -->
     <table>
-        <tr>
-            <td colspan="3">Plat</td> <!-- Permet de fusionner les cellules de deux casses pour un meilleur rendu-->
-        </tr>
 
-        <tr><!-- Permet de créer une nouvelle ligne du tableau -->
-            <td colspan="2">Plat</td> <!-- Titres de colonnes du tableau -->
-            <td>Prix</td>
-        </tr> 
+        <thead> <!-- Permet de mettre une sémentique -->
+            <tr><!-- Permet de créer une nouvelle ligne du tableau -->
+                <td colspan="2">Plat</td> <!-- Titres de colonnes du tableau -->
+                <td>Prix</td>
+            </tr> 
+        </thead>
 
-        <tr>
-            <td>Steak Frite et accompagnement</td>
-            <td><img src="img/steak_frites.jpg"width="400" height="200" alt=" assiette représentant le plat steak frites avec salade verte et tomates"></td>
-            <td>5.99€</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>Steak Frite et accompagnement</td>
+                <td><img src="img/steak_frites.jpg"width="400" height="200" alt=" assiette représentant le plat steak frites avec salade verte et tomates"></td>
+                <td>5.99€</td>
+            </tr>
 
-        <tr>
-            <td colspan="2">Steak </td>
-            <td>3.00€</td>
-        </tr>
+            <tr>
+                <td colspan="2">Steak </td>
+                <td>3.00€</td>
+            </tr>
 
-        <tr>
-            <td colspan="2">Frite</td>
-            <td>2.00€</td>
-        </tr>
-
+            <tr>
+                <td>Frite</td>
+                <td></td>
+                <td>2.00€</td>
+            </tr>
+         </tbody>
         <tr>
             <td colspan="3"></td>
         </tr>
 
-        <tr>
-            <td colspan="3">Dessert</td>
-        </tr>
+        <thead>
+            <tr>
+                <td colspan="2">Dessert</td>
+                <td>Prix</td>
+            </tr>
+        </thead>
 
-        <tr>
-            <td>Mousse au chocolat</td>
-            <td><img src="img/Mousse-au-Chocolat.jpg" width="400"  height="200" alt=" photo d'une mousse aux chocolat dans une verrine"></td>
-            <td>3.99€</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>Mousse au chocolat</td>
+                <td><img src="img/Mousse-au-Chocolat.jpg" width="400"  height="200" alt=" photo d'une mousse aux chocolat dans une verrine"></td>
+                <td>3.99€</td>
+            </tr>
+        </tbody>
 
+        <tfoot>
+            <tr>
+                <td colspan="3"><em>Tous les prix sont TTC</em></td>
+            </tr>
+        </tfoot>
     </table>
 
 
