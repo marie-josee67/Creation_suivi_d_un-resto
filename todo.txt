@@ -2,4 +2,17 @@ Tache restent a accomplir:
 
 1) voir la video sur les liens hypertextes : https://grafikart.fr/tutoriels/introduction-1019#autoplay  ==>  fait
 
-2) vidéo à voir sur les images: https://grafikart.fr/tutoriels/images-1026#autoplay
+2) vidéo à voir sur les images: https://grafikart.fr/tutoriels/images-1026#autoplay  ==> fait
+
+3) video les table : https://grafikart.fr/tutoriels/table-1027#autoplay
+
+4) vidéo les iframe : https://grafikart.fr/tutoriels/iframe-1028#autoplay
+
+5) vidéo div &span : https://grafikart.fr/tutoriels/div-span-1029#autoplay
+
+6) vidéo l'inspecteur : https://grafikart.fr/tutoriels/inspecteur-navigateur-1030#autoplay
+
+7) vidéo W3C : https://grafikart.fr/tutoriels/w3C-standard-1031#autoplay
+
+8) vidéo les formulaires : https://grafikart.fr/tutoriels/form-html-1032#autoplay
+
