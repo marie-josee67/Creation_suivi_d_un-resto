@@ -6,7 +6,7 @@ Tache restent a accomplir:
 
 3) video les table : https://grafikart.fr/tutoriels/table-1027#autoplay  ==> fait
 
-4) vidéo les iframe : https://grafikart.fr/tutoriels/iframe-1028#autoplay
+4) vidéo les iframe : https://grafikart.fr/tutoriels/iframe-1028#autoplay ==> fait
 
 5) vidéo div &span : https://grafikart.fr/tutoriels/div-span-1029#autoplay
 
