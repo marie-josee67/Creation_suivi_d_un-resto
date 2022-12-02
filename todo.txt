@@ -8,11 +8,11 @@ Tache restent a accomplir:
 
 4) vidéo les iframe : https://grafikart.fr/tutoriels/iframe-1028#autoplay ==> fait
 
-5) vidéo div &span : https://grafikart.fr/tutoriels/div-span-1029#autoplay
+5) vidéo div &span : https://grafikart.fr/tutoriels/div-span-1029#autoplay ==> fait
 
-6) vidéo l'inspecteur : https://grafikart.fr/tutoriels/inspecteur-navigateur-1030#autoplay
+6) vidéo l'inspecteur : https://grafikart.fr/tutoriels/inspecteur-navigateur-1030#autoplay ==> fait
 
-7) vidéo W3C : https://grafikart.fr/tutoriels/w3C-standard-1031#autoplay
+7) vidéo W3C : https://grafikart.fr/tutoriels/w3C-standard-1031#autoplay ==> fait
 
 8) vidéo les formulaires : https://grafikart.fr/tutoriels/form-html-1032#autoplay
 
