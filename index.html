@@ -24,11 +24,22 @@
 
 </head>
 <body>
+
+    <!--******************************************************************  Barre de navigation **********************************************************************-->
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Accueil">Accueil</a></li> <!-- Le title permet d'indiquer pour les mal voyant -->
+            <li><a href="menu.html" title="Menu">Menu</a></li>
+            <li><a href="facture.html" title="Fature">Facture</a></li>
+            <li><a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
+    </nav>
+
 <!-- ************************************************************ Identiter du resto **************************************************************** -->
     <h1> L'astro</h1>
 
     <!-- L'iframe est idéale si l'on veut insérer une vidéo ou des cartes mappy -->
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84484.16954516491!2d7.692039590512547!3d48.569053161343994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c8495e18b2c1%3A0x971a483118e7241f!2sStrasbourg!5e0!3m2!1sfr!2sfr!4v1669998358854!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> carte de Strasbourg</iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d84484.16954516491!2d7.692039590512547!3d48.569053161343994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c8495e18b2c1%3A0x971a483118e7241f!2sStrasbourg!5e0!3m2!1sfr!2sfr!4v1669998358854!5m2!1sfr!2sfr" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> carte de Strasbourg</iframe> 
     <!-- frameborder = pas de bordure  allowfullscreen = passage en plein écran autoriser-->
 
     <!-- L'iframe est une balise non vide qui permet d'afficher une fenêtre interactive d'un lien d'une autre page web -->
@@ -36,13 +47,29 @@
     
     <img src="img/face_resto.jpg" alt="photo d'une face fixtif du restaurant l'Astro"> <!-- alt:Permet de mettre un texte en cas de non chargement de l'image, ainsi que pour les personnes avec des défisiences visuels -->
 
-    <p> <strong>Historique : <br></strong> Le restaurant Astro de Strasbourg est un restaurant unique sur le thème de l'Astrologie.Avec une <a href="#cuisine">cuisine</a> autantique. Et un large choix de <a href="menu.html#plats-chauds">plats chaud</a><br>  <!-- Mettre un # puis un mot comme chemin permet que lorsque l'on clique dessus il nous envoit directement vers l'id choisit plus loin sur la page attention ce mot doit être sur le même fichier ( fichier html ici) -->
+    <!-- Les div entour des blocs de texte-->
+    <div lang="fr" class="texteFr">
+        <p> <strong>Historique : <br></strong> Le restaurant Astro de Strasbourg est un restaurant unique sur le thème de l'Astrologie.Avec une <a href="#cuisine">cuisine</a> autantique. Et un large choix de <a href="menu.html#plats-chauds">plats chaud</a><br>  <!-- Mettre un # puis un mot comme chemin permet que lorsque l'on clique dessus il nous envoit directement vers l'id choisit plus loin sur la page attention ce mot doit être sur le même fichier ( fichier html ici) -->
 
-    Créer en 2022 par sa fondatrice <em>Marie-Josée Schmitt</em> curieuse de nature sur la vie en général. <br>Il répond à un souhait de créer un lieu insolite ou chacun trouvera sa place sens problème pour se sentire comme à la maison! Avec un décor sur l'astrologie , les étoiles et l'espace.</p><br>
-    <a href="img/astrologie.jpeg" target="_blank"><img src="img/astrologie.jpeg" alt="Rosace des 12 signes Astrologique" width="400" height="200"></a> <!-- Mettre un lien à l'image permet que quand on clique dessus, elle s'afiche en grand ici dans un nouvel onglet-->
-    
-    <p> click sur l'image au-dessus </p><br>
-    <p> Venez vivre une expérience unique dans votre vie dans se restaurant insolite! Ou le ciel, les étoiles et l'espace invite à un voyage inimaginable. Avec pour renforcer cette aventure un accord parfait avec les 12 signes du zodiaque comme vous ne les aivent jamais vue.</p>
+        <!-- les span entoure des mots ou une phrase-->
+        Créer en <span class="bigtexte"> 2022 </span> par sa fondatrice <em>Marie-Josée Schmitt</em> curieuse de nature sur la vie en général. <br>Il répond à un souhait de créer un lieu insolite ou chacun trouvera sa place sens problème pour se sentire comme à la maison! Avec un décor sur l'astrologie , les étoiles et l'espace.</p><br>
+        <a href="img/astrologie.jpeg" target="_blank"><img src="img/astrologie.jpeg" alt="Rosace des 12 signes Astrologique" width="400" height="200"></a> <!-- Mettre un lien à l'image permet que quand on clique dessus, elle s'afiche en grand ici dans un nouvel onglet-->
+        
+        <p> click sur l'image au-dessus </p><br>
+        <p> Venez vivre une expérience unique dans votre vie dans se restaurant insolite! Ou le ciel, les étoiles et l'espace invite à un voyage inimaginable. Avec pour renforcer cette aventure un accord parfait avec les 12 signes du zodiaque comme vous ne les aivent jamais vue.</p>
+    </div>  
+
+    <div lang="Latin" class="texteLatin">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum molestias cupiditate illo nostrum ad rem, accusamus hic unde, ipsum non iste, architecto quae atque blanditiis suscipit! Officia vel quisquam voluptatum.
+        Quod quasi eveniet dolores possimus voluptatum fugit incidunt quisquam neque est ipsa voluptatibus tempora quidem repudiandae dolore consectetur, reprehenderit aliquid aut necessitatibus enim provident odio non. Molestias consequuntur nihil aliquam.<br>
+        Facilis, dolor ullam. Atque asperiores nesciunt dolore fugit error aut hic veritatis voluptatibus deserunt neque ipsa illo aliquid veniam quod voluptatum quos quae, natus tempora repudiandae, saepe assumenda. Tempore, nesciunt?
+        Officia eius, ex sit distinctio sequi expedita explicabo nulla dignissimos beatae ut facere rem deserunt nam asperiores, nihil saepe eos aperiam minus iste placeat. Ipsam voluptatum facere dolores fugit debitis?&nbsp;
+        Impedit laborum error itaque, accusamus, doloremque nemo dolores vel obcaecati harum quaerat natus, sequi quas quae ducimus veritatis repellendus qui illo repudiandae cum vero doloribus! Nulla illum explicabo cum numquam?
+        Ducimus distinctio quaerat atque odio non facere, expedita laudantium quam iure ab ea tempore in debitis, vero culpa possimus eligendi vel nulla. Illo blanditiis totam fuga, assumenda aspernatur nostrum quisquam.
+        Quam atque ad temporibus porro, est, laboriosam eum incidunt quod eaque error, cumque natus deleniti! Eius hic soluta impedit sunt inventore blanditiis provident possimus ratione quo beatae, molestias deleniti quia.<br>
+        Velit sint tempore laborum temporibus, error voluptatibus, ullam, beatae cumque consequatur eius inventore. Hic minus natus nam sint ad dignissimos, libero nisi temporibus, dolores commodi ex magnam esse, illum itaque.
+        Veritatis recusandae facere possimus maxime distinctio consectetur soluta repellat ipsum vero voluptatibus quam deleniti quisquam alias dolore, molestiae reprehenderit, nobis ipsa. Aliquam minus blanditiis sunt explicabo voluptate ratione, animi eaque.
+    </div>
     <hr> <!-- ligne horizontal-->
 
     <br>
