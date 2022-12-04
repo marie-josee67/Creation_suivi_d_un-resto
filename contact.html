@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact du restaurant l'Astro </title>
+</head>
+<body>
+    
+    <!--****************************************************************** Barre de navigation **********************************************************************-->
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Accueil">Accueil</a></li> <!-- Le title permet d'indiquer pour les mal voyant -->
+            <li><a href="menu.html" title="Menu">Menu</a></li>
+            <li><a href="facture.html" title="Fature">Facture</a></li>
+            <li><a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ***************************************************************** Formulaire de contact **********************************************************************-->
+
+    <h1> Nous contacter </h1>
+
+    <!-- action ==> lien de redirection de l'utilisateur lorsqu'il appuira sur le bouton soumettre de notre formulaire -->
+    <form action="contact.html">
+        <fieldset> <!-- Permet d'englober une partie de formulaire si il y a plusieur étape à suivre  moin utiliser de nos jours-->
+
+            <legend>Nous contacter</legend>
+
+            <!-- Les Div permet de mettre les élément l'un en dessous de l'autre et non l'un à coter de l'autre-->
+            <div>
+                <!-- l'attribut for ==>-permet de spécifier le ID-->
+                <label for="emailinput">Votre email</label>
+                <input type="text" name="email" id="emailinput"> <!-- Le label dans le formulaire permet de sélectionner automatiquement le champ lorsque l'on click dessus-->
+            </div>
+
+            <div>
+                <label for="nominput">Votre nom</label>
+                <input type="text" name="nomUtilisateur" id="nominput">
+            </div>
+
+            <div>
+                <label for="prenominput">Votre prénom</label>
+                <input type="text" name="prenomUtilisateur" id="prenominput">
+            </div>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
