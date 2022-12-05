@@ -28,11 +28,11 @@
 
             <legend>Nous contacter</legend>
 
-            <!-- Les Div permet de mettre les élément l'un en dessous de l'autre et non l'un à coter de l'autre-->
+            <!-- Les Div permet de mettre les élément l'un en dessous de l'autre  car un bloc a chaque type et non l'un à coter de l'autre-->
             <div>
                 <!-- l'attribut for ==>-permet de spécifier le ID-->
-                <label for="emailinput">Votre email</label>
-                <input type="text" name="email" id="emailinput"> <!-- Le label dans le formulaire permet de sélectionner automatiquement le champ lorsque l'on click dessus-->
+                <label for="emailinput">Votre email</label> <!-- Le label dans le formulaire permet de sélectionner automatiquement le champ lorsque l'on click dessus-->
+                <input type="text" name="email" id="emailinput" value="contact@demo.fr"> <!-- value==> permet de préremplir -->
             </div>
 
             <div>
@@ -44,6 +44,27 @@
                 <label for="prenominput">Votre prénom</label>
                 <input type="text" name="prenomUtilisateur" id="prenominput">
             </div>
+
+            <!-- le type password ==> permet de cacher les caractères taper -->
+            <div>
+                <label for="motdepassinput">Votre mot de pass</label>
+                <input type="password" name="motDePass" id="motdepassinput">
+            </div>
+
+            <!-- le type checkbox ==> pour les conditions générales  ou se souvenir de moi permet plusieurs choix possible par exemple-->
+            <div>
+                <label><input type="checkbox" name="cgu" checked>J'accepte les conditions générales d'utilisation </label> <!-- imbriquer pour gagner de la place-->
+            </div>
+            <!-- le type radio ==> permet que un seul choix si on click sur l'un puis sur l'autre le premier est déselectionner -->
+            <div>
+                <label>Sexe</label>
+                <input type="radio" name="sexe" id="feminin" checked> <!-- checked ==> coche celui-ci par défault -->
+                <label for="feminin">Féminin</label>
+                <input type="radio" name="sexe" id="masculin">
+                <label for="masculin">Masculin</label>
+                
+            </div>
+
 
         </fieldset>
     </form>
