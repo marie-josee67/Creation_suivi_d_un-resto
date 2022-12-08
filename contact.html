@@ -34,13 +34,13 @@
             <div>
                 <!-- l'attribut for ==>-permet de spécifier le ID-->
                 <label for="emailinput">Votre email</label> <!-- Le label dans le formulaire permet de sélectionner automatiquement le champ lorsque l'on click dessus-->
-                <input type="text" name="email" id="emailinput" value="contact@demo.fr" disabled> <!-- value==> permet de préremplir ; disabled ==> permet de griser un champ que l'on ne pourra pas changer -->
+                <input type="email" name="email" id="emailinput" value="contact@demo.fr" disabled> <!-- value==> permet de préremplir ; disabled ==> permet de griser un champ que l'on ne pourra pas changer -->
             </div>
 
             <div>
                 <!-- l'attribut for ==>-permet de spécifier le ID-->
                 <label for="email1input">Votre email</label> <!-- Le label dans le formulaire permet de sélectionner automatiquement le champ lorsque l'on click dessus-->
-                <input type="text" name="email" id="email1input" placeholder="contact@demo.fr" required> <!-- placeholder==> permet de donner une indication attendu dans se champ en rendant contact@demo.fr griser ; required ==> premet de rendre le champ obligatoire -->
+                <input type="email" name="email" id="email1input" placeholder="contact@demo.fr" required> <!-- type email ==> permet d'obliger l'utilisateur de mettre un @ et ainsi déviter les erreurs ; placeholder==> permet de donner une indication attendu dans se champ en rendant contact@demo.fr griser ; required ==> premet de rendre le champ obligatoire -->
             </div>
 
         
@@ -78,9 +78,9 @@
             <!-- le type checkbox ==> pour les conditions générales  ou se souvenir de moi permet plusieurs choix possible par exemple-->
             <div>
                 <label><input type="checkbox" name="cgu" checked>J'accepte les conditions générales d'utilisation </label> <!-- imbriquer pour gagner de la place-->
-            </div>
+            </div><br>
 
-<!-- **************************************** genre de l'utilisateur ********************************************** -->
+<!-- **************************************** genre de l'utilisateur deux option ici ********************************************** -->
 
             <!-- le type radio ==> permet que un seul choix si on click sur l'un puis sur l'autre le premier est déselectionner -->
             <div>
@@ -90,7 +90,83 @@
                 <input type="radio" name="sexe" id="masculin">
                 <label for="masculin">Masculin</label>
                 
+            </div><br>
+            
+            <div>
+                <label id="sexe">Sexe</label>
+                <select name="sexe" id="sexe">
+                    <option value="M">Masculin</option>
+                    <option value="F" selected>Féminin</option> <!-- selected ==> permet de définir le premier que l'on verra et de contourner la valeur par défault-->
+                </select>
+            </div><br>
+<!-- ****************************************************** Liste a choix multiples pas utile ici plusieurs option  *********************************************-->
+            <div>
+                <label id="logicile">Logiciel</label>
+                <select name="logiciel" id="logiciel" multiple> <!-- Permet d'autoriser plusieurs choix en maintenant la touche controle-->
+                    <option value="Css">CSS 3</option>
+                    <option value="Html" selected>HTML 5</option> <!-- selected ==> permet de définir le premier que l'on verra et de contourner la valeur par défault-->
+                    <option value="JS">JavaScript</option>
+                    <option value="Rubis">Rubis</option>
+                    <option value="Python">Python</option>
+                </select>
+                <p> Pour sélestionner plusieurs options garder la touche (ctrl) enfoncer. </p>
+            </div><br>
+
+            <div>
+                <label id="animal">Animal préférer</label> <!-- ****************** pour la satisfaction des plats de la cartes par exemple ********************-->
+                <select name="animal" id="animal" multiple> <!-- Permet d'autoriser plusieurs choix en maintenant la touche controle-->
+                    <optgroup label="Mammifère">
+                        <option>cheval</option>
+                        <option>chat</option> <!-- selected ==> permet de définir le premier que l'on verra et de contourner la valeur par défault-->
+                        <option>chien</option>
+                    </optgroup>
+
+                    <optgroup label="Marin">
+                        <option>requin</option>
+                        <option>dauphin</option>
+                    </optgroup>
+
+                    <optgroup label="Aérien">
+                        <option> cigogne</option>
+                        <option> aigle</option>
+                    </optgroup>
+                </select>
+                <p> Pour sélestionner plusieurs options garder la touche (ctrl) enfoncer. </p>
+            </div><br>
+
+<!-- **************************************** mettre une date pour réserver ******************************************************** -->
+            
+            <div>
+                <label> Date de la réservation</label>
+                <input type="date">
             </div>
+
+<!-- ***************************************** Nombre de clients ************************************************************* -->
+
+            <div>
+                <label>Nombre de personnes</label>
+                <input type="number">
+            </div>
+
+<!--******************************************************** Barre de curseur pas utile pour se cas ************************************************************-->
+
+            <div>
+                <label>Barre de curseur</label>
+                <input type="range">
+            </div>
+
+<!-- ************************************************* tel avec un exemple de syntaxe attendu *********************************************************************-->
+            <div>
+                <label>Numéro de contact</label>
+                <input type="tel" placeholder="00/00/00/00/00">
+            </div><br>
+
+<!-- *********************************************** Message champ plus grand pour l'écrire ************************************************************ -->
+
+            <div>
+                <label for="message">Votre message</label>
+                <textarea name="message" id="message" cols="60" rows="10" placeholder="Votre message"></textarea> <!-- Cols ==> colonnes ;  rows ==> lignes-->
+            </div><br>
 
 <!-- ************************************** soumettre le formulaire **********************************-->
 
@@ -101,6 +177,7 @@
             <input type="reset" value="Annuler">
 
         </fieldset>
+
     </form>
 
 </body>
