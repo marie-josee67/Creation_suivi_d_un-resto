@@ -8,7 +8,7 @@
 </head>
 <body>
     
-    <!--****************************************************************** Barre de navigation **********************************************************************-->
+<!--********************************************************* Barre de navigation *************************************************************-->
     <nav>
         <ul>
             <li><a href="index.html" title="Accueil">Accueil</a></li> <!-- Le title permet d'indiquer pour les mal voyant -->
@@ -18,7 +18,7 @@
         </ul>
     </nav>
 
-    <!-- ***************************************************************** Formulaire de contact **********************************************************************-->
+<!-- ******************************************************* Formulaire de contact ***********************************************************-->
 
     <h1> Nous contacter </h1>
 
@@ -28,28 +28,44 @@
 
             <legend>Nous contacter</legend>
 
+<!-- **************************************** email de l'utilisateur plusieurs options ********************************************** -->
+
             <!-- Les Div permet de mettre les élément l'un en dessous de l'autre  car un bloc a chaque type et non l'un à coter de l'autre-->
             <div>
                 <!-- l'attribut for ==>-permet de spécifier le ID-->
                 <label for="emailinput">Votre email</label> <!-- Le label dans le formulaire permet de sélectionner automatiquement le champ lorsque l'on click dessus-->
-                <input type="text" name="email" id="emailinput" value="contact@demo.fr"> <!-- value==> permet de préremplir -->
+                <input type="text" name="email" id="emailinput" value="contact@demo.fr" disabled> <!-- value==> permet de préremplir ; disabled ==> permet de griser un champ que l'on ne pourra pas changer -->
             </div>
 
             <div>
                 <!-- l'attribut for ==>-permet de spécifier le ID-->
                 <label for="email1input">Votre email</label> <!-- Le label dans le formulaire permet de sélectionner automatiquement le champ lorsque l'on click dessus-->
-                <input type="text" name="email" id="email1input" placeholder="contact@demo.fr"> <!-- placeholder==> permet de donner une indication attandu dans se champ en rendant contact@demo.fr griser -->
+                <input type="text" name="email" id="email1input" placeholder="contact@demo.fr" required> <!-- placeholder==> permet de donner une indication attendu dans se champ en rendant contact@demo.fr griser ; required ==> premet de rendre le champ obligatoire -->
             </div>
+
+        
+<!-- **************************************** rajouter des pièces jointes ********************************************** -->
+            <div>
+                <label for="fileinput">Pièce jointe</label>
+                <input type="file" name="file" id="fileinput">
+            </div>
+
+
+<!-- **************************************** Nom utilisateur ********************************************** -->
 
             <div>
                 <label for="nominput">Votre nom</label>
-                <input type="text" name="nomUtilisateur" id="nominput">
+                <input type="text" name="nomUtilisateur" id="nominput" autofocus> <!-- Permet de mettre directement le curseur seur l'élément des le chargement de la page -->
             </div>
+
+<!-- **************************************** prénom de l'utilisateur ********************************************** -->
 
             <div>
                 <label for="prenominput">Votre prénom</label>
                 <input type="text" name="prenomUtilisateur" id="prenominput">
             </div>
+
+<!-- **************************************** mot de pass de l'utilisateur ********************************************** -->
 
             <!-- le type password ==> permet de cacher les caractères taper -->
             <div>
@@ -57,10 +73,15 @@
                 <input type="password" name="motDePass" id="motdepassinput">
             </div>
 
+<!-- **************************************** accord des condition générale d'utilisation ********************************************** -->
+
             <!-- le type checkbox ==> pour les conditions générales  ou se souvenir de moi permet plusieurs choix possible par exemple-->
             <div>
                 <label><input type="checkbox" name="cgu" checked>J'accepte les conditions générales d'utilisation </label> <!-- imbriquer pour gagner de la place-->
             </div>
+
+<!-- **************************************** genre de l'utilisateur ********************************************** -->
+
             <!-- le type radio ==> permet que un seul choix si on click sur l'un puis sur l'autre le premier est déselectionner -->
             <div>
                 <label>Sexe</label>
@@ -71,6 +92,13 @@
                 
             </div>
 
+<!-- ************************************** soumettre le formulaire **********************************-->
+
+                <input type="submit" value="Envoyer un email">
+
+<!-- ***************************************** remise à zéro des informations du formulaire ************************************ -->
+
+            <input type="reset" value="Annuler">
 
         </fieldset>
     </form>
