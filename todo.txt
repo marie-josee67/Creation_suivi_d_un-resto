@@ -1,4 +1,4 @@
-Tache restent a accomplir:
+Tache restent a accomplir en HTML:
 
 1) voir la video sur les liens hypertextes : https://grafikart.fr/tutoriels/introduction-1019#autoplay  ==>  fait
 
@@ -16,4 +16,29 @@ Tache restent a accomplir:
 
 8) vidéo les formulaires : https://grafikart.fr/tutoriels/form-html-1032#autoplay ==> + de 7 min vue   12.35 min vue  ==> fait
 
-9) pratique ( tout refaire de zéro) ==> pour le resto
+9) pratique ( tout refaire de zéro) ==> pour le resto ==> fait
+
+
+
+
+Tache restent a accomplir en CSS:
+
+1) présentation ==> fait
+
+2) les sélecteurs
+
+3) le modèle de boite
+
+4) les formats de couleurs
+
+5) les unités de mesures
+
+6) le positionnement 
+
+7) les éléments flottant : flot
+
+8) la propriété background
+
+9) le box-sizing
+
+10) flexbox
