@@ -7,3 +7,7 @@ h1{
 .title-big{
     color: purple;
 }
+
+#title-big{
+    color: chartreuse;
+}
