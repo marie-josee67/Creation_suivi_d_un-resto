@@ -1,1 +1,9 @@
 /*Permet de créer un fichier ou toutes les pages du site auront une charte graphique identique */
+
+h1{
+    color:red;
+}
+
+.title-big{
+    color: purple;
+}
