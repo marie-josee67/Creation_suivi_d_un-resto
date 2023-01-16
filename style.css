@@ -12,7 +12,42 @@ h1{
     color: chartreuse;
 }
 
-/* l'attribue * spécifie tous les éléments des pages web  qui non pas de charte graphique différentes sens distinctions. Cela est tèrs peu utiliser de nos jours. */
+/* L'attribue * spécifie tous les éléments des pages web  qui non pas de charte graphique différentes sens distinctions. Cela est tèrs peu utiliser de nos jours. */
 *{
     color: goldenrod;
+}
+
+body{
+    color:crimson;
+}
+
+
+/* ***************************************************** Attention les valeurs des différentes propriétés sont hériter des parents.   Pour connaitre le cheminement regarder l'inspecteur d'éléments sur la page web du site .En fessent un clique droit ou avec la touche : F11. *********************************** */
+
+
+
+/* ************************************** En Css c'est la règle la plus spécifique qui l'emporte et non la dernière règle coder ****************************** */
+
+
+/* *********************************** 2 selecteurs séparer par un espace est une combinaison décendante ************************************************* */
+/* Donc pour ce cas, je cible tous les th qui on comme parent table */
+
+table th{
+ color: blueviolet;
+}
+
+table th em {
+    color:azure;
+}
+
+
+/* ******************************* Cible les enfants direct de td . très peu utiliser comme syntaxe ************************************* */
+
+td > h2 {
+    color: green ;
+}
+
+/* ******************************* Cible le voisin directe de h2 **************************************** */
+h2 +p{
+    color:darkblue;
 }
