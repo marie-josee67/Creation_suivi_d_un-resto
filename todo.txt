@@ -25,7 +25,7 @@ Tache restent a accomplir en CSS:
 
 1) présentation ==> fait
 
-2) les sélecteurs
+2) les sélecteurs ==>
 
 3) le modèle de boite
 
