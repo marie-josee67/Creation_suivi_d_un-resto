@@ -70,3 +70,34 @@ h2~p{
 .link-external{
     color: royalblue;
 }
+
+
+
+/* ****************************************************** Les selecteurs d'attribuent **************************************************** */
+
+    /* ********************************** pour le cas d'un formulaire ************************************ */
+
+    input[type="submit"]{
+        width: 200px;
+        color: darkcyan;
+    }
+
+    input[type="email"]{
+        width: 200px;
+        color: rgb(150, 25, 159);
+    }
+
+    /* ************************************* combiner plusieurs règles ************************************** */
+
+    input[type="submit"],input[type="email"]{
+        width: 200px;
+        color: darkcyan;
+    }
+
+    /* ************************************** ou pour une meilleur visibilitée ******************************************** */
+
+    input[type="submit"],
+    input[type="email"]{
+        width: 200px;
+        color: darkcyan;
+    }
