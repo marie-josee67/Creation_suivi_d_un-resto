@@ -41,13 +41,27 @@ table th em {
 }
 
 
-/* ******************************* Cible les enfants direct de td . très peu utiliser comme syntaxe ************************************* */
+/* ******************************* Cible les enfants direct de td . Très peu utiliser comme syntaxe ************************************* */
 
 td > h2 {
     color: green ;
 }
 
 /* ******************************* Cible le voisin directe de h2 **************************************** */
+
 h2 +p{
     color:darkblue;
 }
+
+/* ****************************** cible tous les voisins après un h2 (en fessent alt plus la touche 2), si un ce situe avant il n'est pas conserner. ************************************************** */
+
+h2~p{ 
+    color:purple;
+}
+
+/* ******************************* differencier les liens externes des liens internes ********************************************* */
+
+a[href^= "http"]{ /* attention ne pas oublier le ^ */
+    color: green;
+}
+
