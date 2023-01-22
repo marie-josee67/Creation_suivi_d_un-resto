@@ -79,19 +79,19 @@ h2~p{
 
     input[type="submit"]{
         width: 200px;
-        color: darkcyan;
+        color: rgb(21, 37, 211);
     }
 
     input[type="email"]{
         width: 200px;
-        color: rgb(150, 25, 159);
+        color: rgb(93, 10, 99);
     }
 
     /* ************************************* combiner plusieurs règles ************************************** */
 
     input[type="submit"],input[type="email"]{
         width: 200px;
-        color: darkcyan;
+        color: rgb(21, 183, 37);
     }
 
     /* ************************************** ou pour une meilleur visibilitée ******************************************** */
@@ -99,5 +99,5 @@ h2~p{
     input[type="submit"],
     input[type="email"]{
         width: 200px;
-        color: darkcyan;
+        color: rgb(15, 180, 31);
     }
