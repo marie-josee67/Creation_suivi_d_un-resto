@@ -61,7 +61,12 @@ h2~p{
 
 /* ******************************* differencier les liens externes des liens internes ********************************************* */
 
-a[href^= "http"]{ /* attention ne pas oublier le ^ */
+/* ************************* option 1 ************************** */
+/*a[href^= "http"]{ /* attention ne pas oublier le ^ 
     color: green;
-}
+}*/
 
+/* ****************************** option 2 *************************** */
+.link-external{
+    color: royalblue;
+}
