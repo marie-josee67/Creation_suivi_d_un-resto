@@ -129,3 +129,17 @@ h2~p{
         color:greenyellow;
     }
 
+    /* *****************************   :visited   **************************************** */
+    /* Met les liens deja visiter en violet par default pour indiquer à l'utilisateur qu'il à deja vue ceux lien */
+
+    a:visited{
+        color: blueviolet;
+    }
+
+    /* ********************************   :focus   ************************************ */
+    /* Pour ceux utilisent le clavier comme moyen de navigation */
+
+    a:focus{
+        color: coral;
+    }
+
