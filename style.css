@@ -17,6 +17,10 @@ h1{
     color: goldenrod;
 }
 
+*:hover{
+   color: black;
+}
+
 body{
     color:crimson;
 }
@@ -101,3 +105,27 @@ h2~p{
         width: 200px;
         color: rgb(15, 180, 31);
     }
+
+/* ************************************************************ pseudo-classes *************************************************************** */
+    
+    a{
+        color: blue;
+    }
+    
+    /* ******************************* lors du survol de la souris changement de couleur ********************************************** */
+
+    a:hover{
+        color:chartreuse;
+    }
+
+    /* ********************************** idem pour les titres ou autre élément ************************************************** */
+    /*  très peu utiliser  sur les éléments statique car cela fait croire à l'utilisateur que qu'il peu cliquer dessus  */
+
+    h2{
+        color: rgb(34, 34, 196);
+    }
+
+    h2:hover{
+        color:greenyellow;
+    }
+
