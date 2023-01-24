@@ -143,3 +143,21 @@ h2~p{
         color: coral;
     }
 
+    /* *******************************   :disabled   ********************************** */
+    /* rend un champ inutilisable pour l'utilisateur  voir dans contact le mail*/
+
+    /* *************************************   :first-child   *********************************** */
+    /* Cela concerne que le premier enfant d'un parent */
+
+    p:first-child{
+        font-size: 20px;
+    }
+
+    /* ************************************   :first-of-type   ********************************** */
+    /* le premier élément de ce type là */
+
+    p:first-of-type{
+        font-size: 30px;
+        color:darkcyan;
+    }
+
