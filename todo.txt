@@ -27,7 +27,7 @@ Tâches restent à accomplir en CSS:
 
 2) les sélecteurs ==> fait
 
-3) le modèle de boite ==>
+3) le modèle de boite ==> stop à 14.46
 
 4) les formats de couleurs
 
