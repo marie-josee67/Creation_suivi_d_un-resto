@@ -195,9 +195,13 @@ h2~p{
         width: 500px;
         height: 500px;
     }
-    
+
     /*
     Je lui indique ainsi la taille de la boite voulu, mais cela ne sera pas pris en compte. Car il est considerer en prioriter comme on display inline et aurra ainsi des valeurs par défault.
     
     Les balises utilisent display inline par défault sont: strong, enface, span et lien toutes les balise qui entour du texte.
     */
+
+    /* ******************************************* Display inline block *************************************** */
+
+    /* C'est un élément entre le display inline et le display block.Utiliser par le navigateur pour tous les champs type texte
