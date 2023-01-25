@@ -175,8 +175,29 @@ h2~p{
         background: grey;
     }
 
-/* ********************************************************** Le modèle de boite ***************************************************************************** */
+/* ******************************************************* Le modèle de boite **************************************************************** */
 
-/* Comme toujours le css mais des valeurs par defaut pour la taille des éléments boites, le pagging, le border et le margin de la boite. On les retrouve dans l'inspecteur d'élément.*/
+    /* ****************************************** Display block ************************************** */
+    /* Comme toujours le css mais des valeurs par defaut pour la taille des éléments boites, le pagging, le border et le margin de la boite. On les retrouve dans l'inspecteur d'élément.*/
 
-/* Display block: prend par défault la totalité de la largeur.  display block ne peuvent pas être l'un à coter de l'autre ils serront l'un en dessous de l'autre.On peut aussi leurs indiquer manuellement un largeur et une hauteurs voulluent.
+    header{
+        width: 200px;
+        height: 200px;
+        border: solid 2px red; /* Permet de mieux le situer à enlever à la fin du projet */
+    }
+
+    /* ******************************************* Display inline *************************************** */
+    /* Display block: prend par défault la totalité de la largeur.  display block ne peuvent pas être l'un à coter de l'autre ils serront l'un en dessous de l'autre.On peut aussi leurs indiquer manuellement un largeur et une hauteurs voulluent.
+
+    Display inline: C'est un peu particulier car le cadre prend automatiquement les dimentions de son contenant, c'est le cas principalement des onglet de la barre menu dans ce cas!*/
+
+    span{
+        width: 500px;
+        height: 500px;
+    }
+    
+    /*
+    Je lui indique ainsi la taille de la boite voulu, mais cela ne sera pas pris en compte. Car il est considerer en prioriter comme on display inline et aurra ainsi des valeurs par défault.
+    
+    Les balises utilisent display inline par défault sont: strong, enface, span et lien toutes les balise qui entour du texte.
+    */
