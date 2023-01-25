@@ -215,3 +215,34 @@ h2~p{
         width:200px;
         height:200px;
     }
+
+
+
+/* ********************************************* Mise en forme du site ********************************************* */
+
+.header{
+    background: grey;
+
+    /* *padding option 1 */
+    padding: 20px;
+
+    /* * padding option 2 */
+    /*padding: 20px 10px 5px 0;*/
+
+    /* * padding option 3*/
+    /* padding: 20px 10px 5px */
+    /* 1° chiffre le haut, 2° chiffre gauche et droite, 3° chiffre le bas */
+
+    /* * padding option 4*/
+    /* padding: 20px 10px  */
+    /* 1° chiffre le haut et bas et  2° chiffre gauche et droite */
+
+}
+
+.main{
+    background: lightgrey;
+}
+
+.footer{
+    background: gray;
+}
