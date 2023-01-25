@@ -175,3 +175,8 @@ h2~p{
         background: grey;
     }
 
+/* ********************************************************** Le modèle de boite ***************************************************************************** */
+
+/* Comme toujours le css mais des valeurs par defaut pour la taille des éléments boites, le pagging, le border et le margin de la boite. On les retrouve dans l'inspecteur d'élément.*/
+
+/* Display block: prend par défault la totalité de la largeur.  display block ne peuvent pas être l'un à coter de l'autre ils serront l'un en dessous de l'autre.On peut aussi leurs indiquer manuellement un largeur et une hauteurs voulluent.
