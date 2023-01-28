@@ -27,18 +27,20 @@ Tâches restent à accomplir en CSS:
 
 2) les sélecteurs ==> fait
 
-3) le modèle de boite ==> stop à 14.46
+3) le modèle de boite ==> fait
 
-4) les formats de couleurs
+4) Police & textes ==>
 
-5) les unités de mesures
+5) les formats de couleurs
 
-6) le positionnement 
+6) les unités de mesures
 
-7) les éléments flottant : flot
+7) le positionnement 
 
-8) la propriété background
+8) les éléments flottant : flot
 
-9) le box-sizing
+9) la propriété background
 
-10) flexbox
+10) le box-sizing
+
+11) flexbox

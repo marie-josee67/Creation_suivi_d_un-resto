@@ -286,7 +286,7 @@ body {
     background: lightgreen;
 }
 
-
+/* Le BG aurra un effet différent si l'élément est un display inline ou un display inline-block */
 span {
     background: lightgreen;
 }
