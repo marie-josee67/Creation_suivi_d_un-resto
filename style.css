@@ -238,15 +238,27 @@ h2~p{
     /* 1° chiffre le haut et bas et  2° chiffre gauche et droite */
 
     /* ************************** Faire les marges différaments en plus de ligne mais en étant plus précis sur qui à koi comme marge ************************** */
-    
+    /*  Utile si on veut juste modifier une valeur par rapport au paramètre par défaut du padding */
+
     padding-left: 0px; /* marge à gauche */
 
     padding-right: 0px; /* marge à droite */
 
-    padding-top: 0px; /*  marge en haut */
+    padding-top: 0px; /*  marge en haut. Les padding servent à espacer le contene par rapport aux autres dans la boite.*/
 
     padding-bottom: 20px; /* marge en bas */
 
+    height: auto;/*  La hauteur prendra en compte que la hauteur des différents éléments pour s'adapter. */
+
+    margin-top:50px; /* L'espace est créer en dehors de la boite.  Les margins servent à espacer les boite entre elles. */
+
+}
+
+/* ****************** Modifier la taille de l'image pour quel soit mieux proporsionner ************************* */
+
+.header img {
+    width: 100%; /*  L'uniter de mesure % permet ainsi à l'image de prendre toutes la largueur de l'élément disponible, même si on change la taille de l'écran. */
+    height: auto; /* Il s'adapte pour garder le racio de l'image */
 }
 
 .main{
