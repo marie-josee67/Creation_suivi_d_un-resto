@@ -237,6 +237,16 @@ h2~p{
     /* padding: 20px 10px  */
     /* 1° chiffre le haut et bas et  2° chiffre gauche et droite */
 
+    /* ************************** Faire les marges différaments en plus de ligne mais en étant plus précis sur qui à koi comme marge ************************** */
+    
+    padding-left: 0px; /* marge à gauche */
+
+    padding-right: 0px; /* marge à droite */
+
+    padding-top: 0px; /*  marge en haut */
+
+    padding-bottom: 20px; /* marge en bas */
+
 }
 
 .main{
