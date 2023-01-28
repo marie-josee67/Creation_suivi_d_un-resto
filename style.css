@@ -181,7 +181,7 @@ h2~p{
     /* Comme toujours le css mais des valeurs par defaut pour la taille des éléments boites, le pagging, le border et le margin de la boite. On les retrouve dans l'inspecteur d'élément.*/
 
     header{
-        width: 200px;
+        width: 100%;
         height: 200px;
         border: solid 2px red; /* Permet de mieux le situer à enlever à la fin du projet */
     }
@@ -278,10 +278,16 @@ body{
 }
 
 .header_nav{
-    margin: 50px 0; /*  Les marges de deux éléments ne s'additionne pas. Elles fusionnent cela s'appel( la fusion de marge), là plus grande valeur reste. */
+    margin: 20px 0; /* Les marges de deux éléments ne s'additionne pas. Elles fusionnent cela s'appel( la fusion de marge), là plus grande valeur reste. */
+}
+
+.header_nav a{
+    padding: 0 10px;
+    background: lightgreen;
 }
 
 .footer{
     background: gray;
     padding: 10px 20px;
 }
+
