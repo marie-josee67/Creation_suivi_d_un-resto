@@ -1,27 +1,27 @@
 /*Permet de créer un fichier ou toutes les pages du site auront une charte graphique identique */
 
-h1{
+h1 {
     color:red;
 }
 
-.title-big{
+.title-big {
     color: purple;
 }
 
-#title-big{
+#title-big {
     color: chartreuse;
 }
 
 /* L'attribue * spécifie tous les éléments des pages web  qui non pas de charte graphique différentes sens distinctions. Cela est tèrs peu utiliser de nos jours. */
-*{
+* {
     color: goldenrod;
 }
 
-*:hover{
+*:hover {
    color: black;
 }
 
-body{
+body {
     color:crimson;
 }
 
@@ -36,7 +36,7 @@ body{
 /* *********************************** 2 selecteurs séparer par un espace est une combinaison décendante ************************************************* */
 /* Donc pour ce cas, je cible tous les th qui on comme parent table */
 
-table th{
+table th {
  color: blueviolet;
 }
 
@@ -53,13 +53,13 @@ td > h2 {
 
 /* ******************************* Cible le voisin directe de h2 **************************************** */
 
-h2 +p{
+h2 +p {
     color:darkblue;
 }
 
 /* ****************************** cible tous les voisins après un h2 (en fessent alt plus la touche 2), si un ce situe avant il n'est pas conserner. ************************************************** */
 
-h2~p{ 
+h2~p { 
     color:purple;
 }
 
@@ -71,7 +71,7 @@ h2~p{
 }*/
 
 /* ****************************** option 2 *************************** */
-.link-external{
+.link-external {
     color: royalblue;
 }
 
@@ -81,19 +81,19 @@ h2~p{
 
     /* ********************************** pour le cas d'un formulaire ************************************ */
 
-    input[type="submit"]{
+    input[type="submit"] {
         width: 200px;
         color: rgb(21, 37, 211);
     }
 
-    input[type="email"]{
+    input[type="email"] {
         width: 200px;
         color: rgb(93, 10, 99);
     }
 
     /* ************************************* combiner plusieurs règles ************************************** */
 
-    input[type="submit"],input[type="email"]{
+    input[type="submit"],input[type="email"] {
         width: 200px;
         color: rgb(21, 183, 37);
     }
@@ -101,45 +101,45 @@ h2~p{
     /* ************************************** ou pour une meilleur visibilitée ******************************************** */
 
     input[type="submit"],
-    input[type="email"]{
+    input[type="email"] {
         width: 200px;
         color: rgb(15, 180, 31);
     }
 
 /* ************************************************************ pseudo-classes *************************************************************** */
     
-    a{
+    a {
         color: blue;
     }
     
     /* ******************************* lors du survol de la souris changement de couleur ********************************************** */
 
-    a:hover{
+    a:hover {
         color:chartreuse;
     }
 
     /* ********************************** idem pour les titres ou autre élément ************************************************** */
     /*  très peu utiliser  sur les éléments statique car cela fait croire à l'utilisateur que qu'il peu cliquer dessus  */
 
-    h2{
+    h2 {
         color: rgb(34, 34, 196);
     }
 
-    h2:hover{
+    h2:hover {
         color:greenyellow;
     }
 
     /* *****************************   :visited   **************************************** */
     /* Met les liens deja visiter en violet par default pour indiquer à l'utilisateur qu'il à deja vue ceux lien */
 
-    a:visited{
+    a:visited {
         color: blueviolet;
     }
 
     /* ********************************   :focus   ************************************ */
     /* Pour ceux utilisent le clavier comme moyen de navigation */
 
-    a:focus{
+    a:focus {
         color: coral;
     }
 
@@ -149,14 +149,14 @@ h2~p{
     /* *************************************   :first-child   *********************************** */
     /* Cela concerne que le premier enfant d'un parent */
 
-    p:first-child{
+    p:first-child {
         font-size: 20px;
     }
 
     /* ************************************   :first-of-type   ********************************** */
     /* le premier élément de ce type là */
 
-    p:first-of-type{
+    p:first-of-type {
         font-size: 30px;
         color:darkcyan;
     }
@@ -164,14 +164,14 @@ h2~p{
     /* **********************************   :nth-of-type   ******************************************** */
     /* Permet de cibler un élément pour le modifier */
 
-    p:nth-of-type(2){
+    p:nth-of-type(2) {
         font-size: 50px;
         color: red;
     }
 
     /* les multiples de deux, cela permet ainsi de faire une différence dans un taleau pour bien voire les lignes */
     
-    tr:nth-of-type(2n){
+    tr:nth-of-type(2n) {
         background: grey;
     }
 
@@ -180,7 +180,7 @@ h2~p{
     /* ****************************************** Display block ************************************** */
     /* Comme toujours le css mais des valeurs par defaut pour la taille des éléments boites, le pagging, le border et le margin de la boite. On les retrouve dans l'inspecteur d'élément.*/
 
-    header{
+    header {
         width: 100%;
         height: 200px;
         border: solid 2px red; /* Permet de mieux le situer à enlever à la fin du projet */
@@ -191,7 +191,7 @@ h2~p{
 
     Display inline: C'est un peu particulier car le cadre prend automatiquement les dimentions de son contenant, c'est le cas principalement des onglet de la barre menu dans ce cas!*/
 
-    span{
+    span {
         width: 500px;
         height: 500px;
     }
@@ -211,7 +211,7 @@ h2~p{
     
     On peut à la différence des span changer leurs hauteur et largueur.*/
 
-    input{
+    input {
         width:200px;
         height:200px;
     }
@@ -220,7 +220,7 @@ h2~p{
 
 /* ********************************************* Mise en forme du site ********************************************* */
 
-.header{
+.header {
     background: grey;
 
     /* *padding option 1 */
@@ -261,32 +261,37 @@ h2~p{
     height: auto; /* Il s'adapte pour garder le racio de l'image */
 }
 
-.main{
+.main {
     background: lightgrey;
     padding: 20px;
 }
 
 /*  Cela permet d'écraser la valeur par défault mis en place par le navigateur. Qui est toujours supérieur à 0. Pas besoin de préciser une uniter de mesure tant que c'est 0 car cela sera toujours identique quelque soit la mesure (px, %, em ...) */
 
-body{
+body {
    margin: 0;
 }
 
 /* Pour un meilleur effet visuel du site, retirer le paramètre par défault margin. Cela évite quelle se rajout à celle de la boite. C'est spécifique aux h1, h2, ... */
-.title-big{
+.title-big {
     margin-top: 0;
 }
 
-.header_nav{
+.header_nav {
     margin: 20px 0; /* Les marges de deux éléments ne s'additionne pas. Elles fusionnent cela s'appel( la fusion de marge), là plus grande valeur reste. */
 }
 
-.header_nav a{
+.header_nav a {
     padding: 0 10px;
     background: lightgreen;
 }
 
-.footer{
+
+span {
+    background: lightgreen;
+}
+
+.footer {
     background: gray;
     padding: 10px 20px;
 }
