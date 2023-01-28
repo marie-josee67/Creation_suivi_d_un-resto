@@ -263,8 +263,25 @@ h2~p{
 
 .main{
     background: lightgrey;
+    padding: 20px;
+}
+
+/*  Cela permet d'écraser la valeur par défault mis en place par le navigateur. Qui est toujours supérieur à 0. Pas besoin de préciser une uniter de mesure tant que c'est 0 car cela sera toujours identique quelque soit la mesure (px, %, em ...) */
+
+body{
+   margin: 0;
+}
+
+/* Pour un meilleur effet visuel du site, retirer le paramètre par défault margin. Cela évite quelle se rajout à celle de la boite. C'est spécifique aux h1, h2, ... */
+.title-big{
+    margin-top: 0;
+}
+
+.header_nav{
+    margin: 50px 0; /*  Les marges de deux éléments ne s'additionne pas. Elles fusionnent cela s'appel( la fusion de marge), là plus grande valeur reste. */
 }
 
 .footer{
     background: gray;
+    padding: 10px 20px;
 }
