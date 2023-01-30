@@ -21,9 +21,9 @@
    color: black;
 }
 
-body {
+/*body {
     color:crimson;
-}
+}*/
 
 
 /* ***************************************************** Attention les valeurs des différentes propriétés sont hériter des parents.   Pour connaitre le cheminement regarder l'inspecteur d'éléments sur la page web du site .En fessent un clique droit ou avec la touche : F11. *********************************** */
@@ -149,17 +149,17 @@ h2~p {
     /* *************************************   :first-child   *********************************** */
     /* Cela concerne que le premier enfant d'un parent */
 
-    p:first-child {
+    /*p:first-child {
         font-size: 20px;
-    }
+    }*/
 
     /* ************************************   :first-of-type   ********************************** */
     /* le premier élément de ce type là */
 
-    p:first-of-type {
+   /* p:first-of-type {
         font-size: 30px;
         color:darkcyan;
-    }
+    }*/
 
     /* **********************************   :nth-of-type   ******************************************** */
     /* Permet de cibler un élément pour le modifier */
@@ -251,7 +251,7 @@ h2~p {
     height: auto;/*  La hauteur prendra en compte que la hauteur des différents éléments pour s'adapter. */
     margin-top:50px; /* L'espace est créer en dehors de la boite.  Les margins servent à espacer les boites entre elles. */
     color: #FFFFFF;
-    font-size: 20px; /* Taille de la police, le navigateur met une taille de police par default sur le body qui n'est pas forcément coller.*/
+    font-size: 15px; /* Taille de la police, le navigateur met une taille de police par default sur le body qui n'est pas forcément coller.*/
     text-align: center;
 
 }
@@ -274,6 +274,8 @@ h2~p {
 
 .main p {
     text-align: justify; /* Alignement du texte */
+    text-align-last: right; /* Permet de décrire comment la dernière ligen doit se comporter */
+    text-justify: auto; /*  Change le fonctionnement surtous celle de la dernière ligne */
 }
 
 /*  Cela permet d'écraser la valeur par défault mis en place par le navigateur. Qui est toujours supérieur à 0. Pas besoin de préciser une uniter de mesure tant que c'est 0 car cela sera toujours identique quelque soit la mesure (px, %, em ...) */
@@ -285,6 +287,11 @@ body {
    font-family: "Comic Sans MS","Helvetica", sans-serif; /* Forme de la police. mettre à la fin sans-serif (sens pattes aux niveaux des lettres)ou serif (avec pattes aux niveaux des lettres), pour que le navigateur sache lequel chercher.*/
 }
 
+
+.texteLatin{
+    font-size: 15px;
+}
+
 /* Pour un meilleur effet visuel du site, retirer le paramètre par défault margin. Cela évite quelle se rajout à celle de la boite. C'est spécifique aux h1, h2, ... */
 .title-big {
     margin-top: 0;
@@ -292,7 +299,7 @@ body {
 }
 
 .header_nav {
-    display: inline; /*  Permet ainsi qu'il soit influencer par son parent, car il n'est pas de type inline ou inline-block. Mettre display: inline-block ==> ainsi le block entier sera centrer avec son width compris. */
+    display: inline; /*  Permet ainsi qu'il soit influencer par son parent, car il n'est pas de type inline ou inline-block. Mettre display: inline-block ==> ainsi le block entier sera centrer avec son width. */
     width: 300px;
     margin: 20px 0; /* Les marges de deux éléments ne s'additionne pas. Elles fusionnent cela s'appel( la fusion de marge), là plus grande valeur reste. */
     text-align: center;
