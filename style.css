@@ -1,12 +1,12 @@
 /*Permet de créer un fichier ou toutes les pages du site auront une charte graphique identique */
 
-h1 {
+/*h1 {
     color:red;
-}
+}*/
 
-.title-big {
+/*.title-big {
     color: purple;
-}
+}*/
 
 #title-big {
     color: chartreuse;
@@ -14,7 +14,7 @@ h1 {
 
 /* L'attribue * spécifie tous les éléments des pages web  qui non pas de charte graphique différentes sens distinctions. Cela est tèrs peu utiliser de nos jours. */
 * {
-    color: goldenrod;
+    /*color: goldenrod;*/
 }
 
 *:hover {
@@ -251,6 +251,8 @@ h2~p {
     height: auto;/*  La hauteur prendra en compte que la hauteur des différents éléments pour s'adapter. */
 
     margin-top:50px; /* L'espace est créer en dehors de la boite.  Les margins servent à espacer les boite entre elles. */
+    
+    color: #FFFFFF;
 
 }
 
@@ -284,6 +286,7 @@ body {
 .header_nav a {
     padding: 0 10px;
     background: lightgreen;
+    color:inherit /* Ainsi la couleur sera hériter du parent. */
 }
 
 /* Le BG aurra un effet différent si l'élément est un display inline ou un display inline-block */
