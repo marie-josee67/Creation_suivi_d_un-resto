@@ -252,6 +252,7 @@ h2~p {
     margin-top:50px; /* L'espace est créer en dehors de la boite.  Les margins servent à espacer les boites entre elles. */
     color: #FFFFFF;
     font-size: 20px; /* Taille de la police, le navigateur met une taille de police par default sur le body qui n'est pas forcément coller.*/
+    text-align: center;
 
 }
 
@@ -270,6 +271,11 @@ h2~p {
     font-size: 16px;
 }
 
+
+.main p {
+    text-align: justify; /* Alignement du texte */
+}
+
 /*  Cela permet d'écraser la valeur par défault mis en place par le navigateur. Qui est toujours supérieur à 0. Pas besoin de préciser une uniter de mesure tant que c'est 0 car cela sera toujours identique quelque soit la mesure (px, %, em ...) */
 
 body {
@@ -282,10 +288,14 @@ body {
 /* Pour un meilleur effet visuel du site, retirer le paramètre par défault margin. Cela évite quelle se rajout à celle de la boite. C'est spécifique aux h1, h2, ... */
 .title-big {
     margin-top: 0;
+    font-family: serif;/* Juste présicer aux niveaux des empattements que l'on souhaite et le navigateur ferra le reste. */
 }
 
 .header_nav {
+    display: inline; /*  Permet ainsi qu'il soit influencer par son parent, car il n'est pas de type inline ou inline-block. Mettre display: inline-block ==> ainsi le block entier sera centrer avec son width compris. */
+    width: 300px;
     margin: 20px 0; /* Les marges de deux éléments ne s'additionne pas. Elles fusionnent cela s'appel( la fusion de marge), là plus grande valeur reste. */
+    text-align: center;
 }
 
 .header_nav a {
