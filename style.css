@@ -249,10 +249,9 @@ h2~p {
     padding-bottom: 20px; /* marge en bas */
 
     height: auto;/*  La hauteur prendra en compte que la hauteur des différents éléments pour s'adapter. */
-
-    margin-top:50px; /* L'espace est créer en dehors de la boite.  Les margins servent à espacer les boite entre elles. */
-    
+    margin-top:50px; /* L'espace est créer en dehors de la boite.  Les margins servent à espacer les boites entre elles. */
     color: #FFFFFF;
+    font-size: 20px; /* Taille de la police, le navigateur met une taille de police par default sur le body qui n'est pas forcément coller.*/
 
 }
 
@@ -266,12 +265,18 @@ h2~p {
 .main {
     background: lightgrey;
     padding: 20px;
+    line-height: 20px;/* Auteur de lignes */
+    /*line-height: 1.4; /* Cela équivau à 140% de la taille de la police. La règle en thypographie est comprise entre 1.4 et 1.6. */
+    font-size: 16px;
 }
 
 /*  Cela permet d'écraser la valeur par défault mis en place par le navigateur. Qui est toujours supérieur à 0. Pas besoin de préciser une uniter de mesure tant que c'est 0 car cela sera toujours identique quelque soit la mesure (px, %, em ...) */
 
 body {
    margin: 0;
+   line-height: 1.4;
+   letter-spacing: 0.8px; /* Espace entre les lettres. */
+   font-family: "Comic Sans MS","Helvetica", sans-serif; /* Forme de la police. mettre à la fin sans-serif (sens pattes aux niveaux des lettres)ou serif (avec pattes aux niveaux des lettres), pour que le navigateur sache lequel chercher.*/
 }
 
 /* Pour un meilleur effet visuel du site, retirer le paramètre par défault margin. Cela évite quelle se rajout à celle de la boite. C'est spécifique aux h1, h2, ... */
