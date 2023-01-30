@@ -164,10 +164,10 @@ h2~p {
     /* **********************************   :nth-of-type   ******************************************** */
     /* Permet de cibler un élément pour le modifier */
 
-    p:nth-of-type(2) {
+    /*p:nth-of-type(2) {
         font-size: 50px;
         color: red;
-    }
+    }*/
 
     /* les multiples de deux, cela permet ainsi de faire une différence dans un taleau pour bien voire les lignes */
     
