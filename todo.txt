@@ -29,7 +29,7 @@ Tâches restent à accomplir en CSS:
 
 3) le modèle de boite ==> fait
 
-4) Police & textes ==> 17.39
+4) Police & textes ==> 20.59
 
 5) les formats de couleurs
 
