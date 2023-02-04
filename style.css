@@ -278,6 +278,12 @@ h2~p {
     text-justify: auto; /*  Change le fonctionnement surtous celle de la dernière ligne */
 }
 
+/* ****************************** Une bizarrerie dans mon paragraphe; quel solution ! */
+p{
+    width: 200px; /* En donnent une largueur à mon élément une bizarrerie apparaît car les navigateurs ne casse pas les mots si ils sont plus grand! */
+    overflow-wrap:break-word ; /* Anciennement word-wrap, em méttent comme cela le mot va être couper et placer sur plusieurs ligne pour respecter la largueur voulu!*/
+}
+
 /*  Cela permet d'écraser la valeur par défault mis en place par le navigateur. Qui est toujours supérieur à 0. Pas besoin de préciser une uniter de mesure tant que c'est 0 car cela sera toujours identique quelque soit la mesure (px, %, em ...) */
 
 body {
