@@ -310,6 +310,7 @@ body {
     margin-top: 0;
     font-family: serif;/* Juste présicer aux niveaux des empattements que l'on souhaite et le navigateur ferra le reste. */
     font-weight: lighter; /* gras des caractères et/ou texte */
+    font-style:italic; /* Permet de définir le style de la police */
 }
 
 .header_nav {
