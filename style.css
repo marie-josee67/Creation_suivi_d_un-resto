@@ -273,6 +273,13 @@ h2~p {
 
 
 .main p {
+
+    /* * il permet de définir la forma de la ligne (solid, double ,dotted (pointillé), dashed ( petit trait) ou wavy (vague)) */
+    text-decoration-style: solid;
+
+    /** Permet de décider ou mettre la ligne (none (aucune), underline (en bas), overline (en haut),line-throungh (texte barrer), underline overline, underline line-through  */
+    text-decoration-line:none ;
+
     text-align: justify; /* Alignement du texte */
     text-align-last: right; /* Permet de décrire comment la dernière ligen doit se comporter */
     text-justify: auto; /*  Change le fonctionnement surtous celle de la dernière ligne */
@@ -317,6 +324,9 @@ body {
     color:inherit /* Ainsi la couleur sera hériter du parent. */
 }
 
+.header_nav a:hover{
+    text-decoration: underline;
+}
 /* Le BG aurra un effet différent si l'élément est un display inline ou un display inline-block */
 span {
     background: lightgreen;
