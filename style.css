@@ -275,7 +275,7 @@ h2~p {
 .main p {
 
     /* * il permet de définir la forma de la ligne (solid, double ,dotted (pointillé), dashed ( petit trait) ou wavy (vague)) */
-    text-decoration-style: solid;
+    text-decoration-style: wavy;
 
     /** Permet de décider ou mettre la ligne (none (aucune), underline (en bas), overline (en haut),line-throungh (texte barrer), underline overline, underline line-through  */
     text-decoration-line:none ;
@@ -309,6 +309,7 @@ body {
 .title-big {
     margin-top: 0;
     font-family: serif;/* Juste présicer aux niveaux des empattements que l'on souhaite et le navigateur ferra le reste. */
+    font-weight: lighter; /* gras des caractères et/ou texte */
 }
 
 .header_nav {
@@ -321,7 +322,9 @@ body {
 .header_nav a {
     padding: 0 10px;
     background: lightgreen;
-    color:inherit /* Ainsi la couleur sera hériter du parent. */
+    color:inherit; /* Ainsi la couleur sera hériter du parent. */
+    text-decoration: none;
+    font-weight: 500; /* gras du texte */
 }
 
 .header_nav a:hover{
