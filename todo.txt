@@ -31,7 +31,7 @@ Tâches restent à accomplir en CSS:
 
 4) Police & textes ==> fait
 
-5) les formats de couleurs ==>
+5) les formats de couleurs ==> fait
 
 6) les unités de mesures
 
