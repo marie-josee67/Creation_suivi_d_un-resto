@@ -1,6 +1,6 @@
 ****************************** Couleur : ***************************************
 
-rbga (25 59 255 0.6) ==> rouge bleu green et opaciter comprise entre 0 et 1
+rbga (25, 59, 255, 0.6) ==> rouge bleu green et opaciter comprise entre 0 et 1
 
 0 1 2 3 4 5 6 7 8 9 A B C D E F 
 
@@ -24,3 +24,14 @@ color: #090; = color: #009900;
 idem
 
 color: #090a; = color: #009900aa;
+
+
+************************ Permet de voir différentes version d'une même couleurs plus facilement que l'Hexadecimal *********************
+
+color: hls(30 100% 50%) correspond au curseur TSL (teinte, saturation, luminosité)
+color: hlsa(30 100% 50% 0.6)
+
+********************* Sources: *******************
+
+https://affinity.serif.com/fr/designer ==> logiciel utiliser dans la vidéo
+https://grafikart.fr/tutoriels/couleurs-css-1038#autoplay ==> cours
