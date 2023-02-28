@@ -1,0 +1,26 @@
+****************************** Couleur : ***************************************
+
+rbga (25 59 255 0.6) ==> rouge bleu green et opaciter comprise entre 0 et 1
+
+0 1 2 3 4 5 6 7 8 9 A B C D E F 
+
+********************* en base 16 *********************
+FF = 255 soit :
+
+15 * 16^1 + 15 * 16^0 = 15 * 16^1 + 15 * 1 = 240 +15 = 255
+
+******************* Hexadecimal ******************
+
+48 = 4*16 + 8*1 = 64 + 8 = 72 en base de 10
+
+48 ==> RVB Hexadecimal
+72 ==> RVB
+
+On peut aussi utlisiser des convertisseurs de couleurs sur internet.
+
+
+color: #090; = color: #009900;
+
+idem
+
+color: #090a; = color: #009900aa;
