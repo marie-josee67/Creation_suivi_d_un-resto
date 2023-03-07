@@ -332,11 +332,13 @@ body {
 }
 
 .header_nav a {
+    width: 50%;
     padding: 0 10px;
     background: lightgreen;
     color:inherit; /* Ainsi la couleur sera hériter du parent. */
     text-decoration: none;
     font-weight: 500; /* gras du texte */
+    border:red solid 2px;
 }
 
 .header_nav a:hover{

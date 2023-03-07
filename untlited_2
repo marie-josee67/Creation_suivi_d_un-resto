@@ -1,9 +1,9 @@
 *************************************       Les unitées de mesures        ***************************************************
 
-Les unitées de mesures absolue:
+
+************* Les unitées de mesures absolue: **************
 
     Px: pixels
-
 
 Pour l'impression de page web par l'utilisateur, il est plus judicieux de créer une nouvelle page css car on utilisera pas les même mesures ==> pas de pixels! Pour cela on utilisera ces mesures d'uniter réelle:
 
@@ -14,3 +14,16 @@ Pour l'impression de page web par l'utilisateur, il est plus judicieux de créer
     pc = 12pt
 
 Si on ne créer pas cette page CSS, cela n'est pas bien grave. Car le navigateur fera une adaptation pour avoir un peu prêt la même apparence de la page.
+
+
+************** Les unités de mesures relative : *************
+
+    %: pourcentage par rapport au contaigner pour la largeur de la page (width). Ne fonctionne pas au niveau de la hauteur (height).
+
+    vh: si on mais par exemple 1vh, cela signifie que l'élément prendra 1% de hauteur de l'espace visible. Elle est calculer par rapport à la taille de la fenêtre pas du contaigner.
+
+    vw: représente la largueur de l'espace visible en %.
+
+    vmin: uniter de mesure en %, utilise la valeur la plus petite.
+
+    vmax: uniter de mesure en % et utilise la valeurs la plus grande.
