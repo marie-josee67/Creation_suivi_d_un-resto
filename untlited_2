@@ -3,4 +3,14 @@
 Les unitées de mesures absolue:
 
     Px: pixels
-    
+
+
+Pour l'impression de page web par l'utilisateur, il est plus judicieux de créer une nouvelle page css car on utilisera pas les même mesures ==> pas de pixels! Pour cela on utilisera ces mesures d'uniter réelle:
+
+    mn ==> minimètre
+    cm ==> centimètre
+    in = 2.4 cm
+    pt = 1/72 de in
+    pc = 12pt
+
+Si on ne créer pas cette page CSS, cela n'est pas bien grave. Car le navigateur fera une adaptation pour avoir un peu prêt la même apparence de la page.
