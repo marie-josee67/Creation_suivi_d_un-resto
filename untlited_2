@@ -28,6 +28,6 @@ Si on ne créer pas cette page CSS, cela n'est pas bien grave. Car le navigateur
 
     vmax==> valeur maximal c'est une unitée de mesure en % et utilise la valeurs la plus grande.
 
-    em ==> premet de définir une valeur par rapport à la taille de la police de l'élément, utile dans le cas des espacements de paragraphe. Ainsi que des marges interne ou externe d'un paragraphe.
+    em ==> premet de définir une valeur par rapport à la taille de la police de l'élément ou de l'élément parent, utile dans le cas des espacements de paragraphe. Ainsi que des marges interne ou externe d'un paragraphe. Ex : 1.5em = 1.5 X plus grande que la taille de la police.
 
-    rem ==>
+    rem ==> Dépend de la police de la racine soit le Body. Cela permet de fixer une marge par rapport à la taille de la police générale de l'application.
