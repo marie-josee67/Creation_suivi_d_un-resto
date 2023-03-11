@@ -349,6 +349,7 @@ body {
 .header_nav a:hover{
     text-decoration: underline;
 }
+
 /* Le BG aurra un effet différent si l'élément est un display inline ou un display inline-block */
 span {
     background: lightgreen;
@@ -369,3 +370,10 @@ main p{
     padding: 10px 20px;
 }
 
+.button {
+    color:#fff;
+    background:#4529c3;
+    text-decoration: none; /* retire la barre de surlignage */
+    font-size: 30px;
+    padding: 0.3em 0.5em; /* soit la motier de la taille de la police */
+}
