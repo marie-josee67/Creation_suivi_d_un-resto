@@ -33,7 +33,7 @@ Tâches restent à accomplir en CSS:
 
 5) les formats de couleurs ==> fait
 
-6) les unités de mesures ==> 7.27
+6) les unités de mesures ==> fait
 
 7) le positionnement 
 

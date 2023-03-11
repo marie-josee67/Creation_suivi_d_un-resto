@@ -1,7 +1,7 @@
-*************************************       Les unitées de mesures        ***************************************************
+/* ************************************       Les unitées de mesures        ************************************************** */
 
 
-************* Les unitées de mesures absolue: **************
+/* ************ Les unitées de mesures absolue: ************* */
 
     Px: pixels
 
@@ -16,7 +16,7 @@ Pour l'impression de page web par l'utilisateur, il est plus judicieux de créer
 Si on ne créer pas cette page CSS, cela n'est pas bien grave. Car le navigateur fera une adaptation pour avoir un peu prêt la même apparence de la page.
 
 
-************** Les unités de mesures relative : *************
+/* ************* Les unités de mesures relative : ************ */
 
     % ==> pourcentage par rapport au contaigner pour la largeur de la page (width). Ne fonctionne pas au niveau de la hauteur (height).
 
@@ -31,3 +31,8 @@ Si on ne créer pas cette page CSS, cela n'est pas bien grave. Car le navigateur
     em ==> premet de définir une valeur par rapport à la taille de la police de l'élément ou de l'élément parent, utile dans le cas des espacements de paragraphe. Ainsi que des marges interne ou externe d'un paragraphe. Ex : 1.5em = 1.5 X plus grande que la taille de la police. Très utile pour les marges, car si un client change d'avis sur la taille de la police. Avec cette mesure les marges s'adapteront aussi et il ne faudra pas les changer manuellement par rapport aux pixels.
 
     rem ==> Dépend de la police de la racine soit le Body. Cela permet de fixer une marge par rapport à la taille de la police générale de l'application.
+
+/* sources :
+
+https://grafikart.fr/tutoriels/units-css-1039#autoplay
+*/
