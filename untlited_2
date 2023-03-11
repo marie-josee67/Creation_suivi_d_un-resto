@@ -27,3 +27,5 @@ Si on ne créer pas cette page CSS, cela n'est pas bien grave. Car le navigateur
     vmin: uniter de mesure en %, utilise la valeur la plus petite.
 
     vmax: uniter de mesure en % et utilise la valeurs la plus grande.
+
+    em: premet de définir une valeur par rapport à la taille de la police de l'élément, utile dans le cas des espacements de paragraphe.
