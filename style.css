@@ -299,6 +299,11 @@ p:first-of-type::first-letter{
     font-style: italic;
 }
 
+/* ************************* explication du rem et em ****************************************** */
+html, body{
+    font-size: 20px;
+}
+
 /*  Cela permet d'écraser la valeur par défault mis en place par le navigateur. Qui est toujours supérieur à 0. Pas besoin de préciser une uniter de mesure tant que c'est 0 car cela sera toujours identique quelque soit la mesure (px, %, em ...) */
 
 body {
@@ -347,6 +352,16 @@ body {
 /* Le BG aurra un effet différent si l'élément est un display inline ou un display inline-block */
 span {
     background: lightgreen;
+}
+
+main{
+    background: lightgreen;
+    padding:20px;
+    font-size: 16px;
+}
+
+main p{
+    margin-bottom: 1.5rem;
 }
 
 .footer {
