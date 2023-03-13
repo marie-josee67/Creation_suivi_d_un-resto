@@ -366,15 +366,18 @@ main p{
     margin-bottom: 1.5rem;
 }
 
-.footer {
-    background: gray;
-    padding: 10px 20px;
-}
 
+ /*  ************************************* bouton pour l'exemple ************************************** */
 .button {
     color:#fff;
     background:#4529c3;
     text-decoration: none; /* retire la barre de surlignage */
     font-size: 1rem;
     padding: 0.4em 0.5em; /* soit la motier de la taille de la police */
+}
+
+/*  *********************************************** pied de page ********************************************* */
+.footer {
+    background: gray;
+    padding: 10px 20px;
 }
