@@ -9,6 +9,7 @@ ex:
 position: absolute;
     top:0;
     left:0;
+    right: 0; /* ainsi avec un left et un right l'élément prendra une largeur de 100% */
 }
 Ainsi l'élément sera positionner tous en haut tous à gauche de la fenêtre. 
 
