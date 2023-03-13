@@ -51,12 +51,12 @@ ex:
 
 Ainsi la barre ne bouge pas même lorsque l'on scroll. Utile si l'on veut que le menu reste toujours à disposition de l'utilisateur.
 
-****************************************** Position:relative ***********************************************
+****************************************** Position:relative 1° propriétés ***********************************************
 
 Ressemble asser au position:static. La différence c'est que l'on peut rajouter top, left, right et bottom en valeur + et -.
 Il va décaler l'élément, mais il sortira de la fenêtre .
 
-ex:
+ex 1:
 .header_nav {
     position: relative;
     top:20px;
@@ -65,3 +65,13 @@ ex:
     text-align: center;
     background: lightcoral;
 }
+
+ex 2:
+.header_nav {
+    position: relative;
+    left:-10px;
+    margin: 20px 0; /* Les marges de deux éléments ne s'additionne pas. Elles fusionnent cela s'appel( la fusion de marge), là plus grande valeur reste. */
+    text-align: center;
+    background: lightcoral;
+}
+

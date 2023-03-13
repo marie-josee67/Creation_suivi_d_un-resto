@@ -333,8 +333,7 @@ body {
 .header_nav {
     /*display: inline; /*  Permet ainsi qu'il soit influencer par son parent, car il n'est pas de type inline ou inline-block. Mettre display: inline-block ==> ainsi le block entier sera centrer avec son width. */
     position: relative;
-    top:20px;
-    left:30px;
+    left: -10px;
     /*right: 0; /* ainsi avec un left et un right l'élément prendra une largeur de 100% */
     /*bottom: 0;
     width: 100%;
