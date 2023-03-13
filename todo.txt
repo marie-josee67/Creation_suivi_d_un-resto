@@ -35,7 +35,7 @@ Tâches restent à accomplir en CSS:
 
 6) les unités de mesures ==> fait
 
-7) le positionnement 
+7) le positionnement ==> 5.41
 
 8) les éléments flottant : flot
 

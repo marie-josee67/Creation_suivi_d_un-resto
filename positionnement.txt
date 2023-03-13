@@ -75,3 +75,6 @@ ex 2:
     background: lightcoral;
 }
 
+****************************************** Position:relative 2° propriétés ***********************************************
+
+Un élément en position relative va aussi changer le comportement de ces enfants.
