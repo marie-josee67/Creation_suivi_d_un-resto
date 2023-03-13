@@ -1,0 +1,21 @@
+ Par defaut tous les éléments sont en static. Se qui signifie qu'ils sont placer l'un à la suite de l'autre.
+
+****************************************** Position absolute *************************************
+
+Ce positionnement vas de paire avec 4 nouvelles propriétés: top, left, right, bottom. qui va permetre de placer l'élément par rapport à la fenêtre.
+
+ex:
+.header_nav {
+position: absolute;
+    top:0;
+    left:0;
+}
+Ainsi l'élément sera positionner tous en haut tous à gauche de la fenêtre. 
+
+ex suite:
+.header_nav {
+    width: 100%;
+    height: 100%;
+}
+
+On peut aussi modifier la hauteur et la longueur!

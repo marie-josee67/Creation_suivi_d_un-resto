@@ -332,9 +332,14 @@ body {
 
 .header_nav {
     display: inline; /*  Permet ainsi qu'il soit influencer par son parent, car il n'est pas de type inline ou inline-block. Mettre display: inline-block ==> ainsi le block entier sera centrer avec son width. */
-    width: 300px;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
     margin: 20px 0; /* Les marges de deux éléments ne s'additionne pas. Elles fusionnent cela s'appel( la fusion de marge), là plus grande valeur reste. */
     text-align: center;
+    background: lightcoral;
 }
 
 .header_nav a {
