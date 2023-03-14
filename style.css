@@ -287,7 +287,7 @@ h2~p {
 
 /* ****************************** Une bizarrerie dans mon paragraphe; quel solution ! */
 p{
-    position: relative;
+    position: relative; /* le bouton se position par rapport au premier parent en position: relative */
     /*text-indent: 100px; /*  Permet d'indenter la première ligne du paragraphe */
     /*width: 200px; /* En donnent une largueur à mon élément une bizarrerie apparaît car les navigateurs ne casse pas les mots si ils sont plus grand! */
     overflow-wrap:break-word ; /* Anciennement word-wrap, em méttent comme cela le mot va être couper et placer sur plusieurs ligne pour respecter la largueur voulu!*/

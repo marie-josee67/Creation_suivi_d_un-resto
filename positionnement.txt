@@ -78,3 +78,26 @@ ex 2:
 ****************************************** Position:relative 2° propriétés ***********************************************
 
 Un élément en position relative va aussi changer le comportement de ces enfants.
+Si un élément positionner plus haut dans le code est en position: relative ou position: absolute. 
+Il devindra le nouveau élément référent pour possitionner les éléments suivantes.
+
+ex:
+p{
+    position: relative; /* le bouton se position par rapport au premier parent en position: relative */
+    /*text-indent: 100px; /*  Permet d'indenter la première ligne du paragraphe */
+    /*width: 200px; /* En donnent une largueur à mon élément une bizarrerie apparaît car les navigateurs ne casse pas les mots si ils sont plus grand! */
+    overflow-wrap:break-word ; /* Anciennement word-wrap, em méttent comme cela le mot va être couper et placer sur plusieurs ligne pour respecter la largueur voulu!*/
+}
+
+.button {
+    color:#fff;
+    background:#4529c3;
+    text-decoration: none; /* retire la barre de surlignage */
+    font-size: 20px;
+    padding: 0.2em 0.5em; /* soit la motier de la taille de la police */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+Sens la position: relative de la balise p le buttton serais en haut à gauche de l'écran.
