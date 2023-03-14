@@ -221,6 +221,10 @@ h2~p {
 /* ********************************************* Mise en forme du site ********************************************* */
 
 .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
     background: grey;
 
     /* *padding option 1 */
@@ -287,7 +291,7 @@ h2~p {
 
 /* ****************************** Une bizarrerie dans mon paragraphe; quel solution ! */
 p{
-    position: relative; /* le bouton se position par rapport au premier parent en position: relative */
+    /*position: relative; /* le bouton se position par rapport au premier parent en position: relative */
     /*text-indent: 100px; /*  Permet d'indenter la première ligne du paragraphe */
     /*width: 200px; /* En donnent une largueur à mon élément une bizarrerie apparaît car les navigateurs ne casse pas les mots si ils sont plus grand! */
     overflow-wrap:break-word ; /* Anciennement word-wrap, em méttent comme cela le mot va être couper et placer sur plusieurs ligne pour respecter la largueur voulu!*/
@@ -333,15 +337,19 @@ body {
 
 .header_nav {
     /*display: inline; /*  Permet ainsi qu'il soit influencer par son parent, car il n'est pas de type inline ou inline-block. Mettre display: inline-block ==> ainsi le block entier sera centrer avec son width. */
-    position: relative;
+    /*position: relative;
     left: -10px;
-    /*right: 0; /* ainsi avec un left et un right l'élément prendra une largeur de 100% */
-    /*bottom: 0;
+    right: 0; /*ainsi avec un left et un right l'élément prendra une largeur de 100% 
+    bottom: 0;
     width: 100%;
     height: 100%;*/
     margin: 20px 0; /* Les marges de deux éléments ne s'additionne pas. Elles fusionnent cela s'appel( la fusion de marge), là plus grande valeur reste. */
     text-align: center;
     background: lightcoral;
+    /*position:sticky; /*ne fonctionne pas positionnner sur le header.
+    top: 0;
+    left: 0;
+    right: 0;*/
 }
 
 .header_nav a {
@@ -351,7 +359,8 @@ body {
     color:inherit; /* Ainsi la couleur sera hériter du parent. */
     text-decoration: none;
     font-weight: 500; /* gras du texte */
-    border:red solid 2px;
+    /*border:red solid 2px;*/
+   
 }
 
 .header_nav a:hover{
@@ -383,9 +392,9 @@ body {
     text-decoration: none; /* retire la barre de surlignage */
     font-size: 20px;
     padding: 0.2em 0.5em; /* soit la motier de la taille de la police */
-    position: absolute;
+    /*position: absolute;
     top: 0;
-    left: 0;
+    left: 0;*/
 }
 
 /*  *********************************************** pied de page ********************************************* */
