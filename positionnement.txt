@@ -100,10 +100,11 @@ p{
     left: 0;
 }
 
-Sens la position: relative de la balise p le buttton serais en haut à gauche de l'écran.
+Sens la position: relative de la balise <p> le buttton serais en haut à gauche de l'écran.
 
 
 *********************************************** Position: sticky *************************************************
 
 Cet élément fonctionne comme une position: static jusqu'a ce que l'on sorte du carde ex: en scrollent.
-Un navigateur qui ne comrend pas un position:sticky va le concidérer comme un position:static.
+Un navigateur qui ne comprend pas un position : sticky va le concidérer comme un position : static.
+La position : sticky signifie une position fixe de l'élément.
